@@ -7,7 +7,6 @@ The project get insights about the questions below:
 * Age is related to missing an appointment?
 * Gender is related to going or missing an appointment?
 
-
 ## Dataset
 
 The dataset was extracted from Kaggle in the csv format and has more than 110k appointments recorded. The file has data of Patient ID, Appointment ID, Gender of patient, Appointment day, Age, Neighbourhood, Scholarship, SMS_received, Handcap, if a patient attended to the appointment or not (No-show) and data of the current health condition of a patient, expressed through Hipertension, Diabetes and Alcoholism. Most columns conditions are expressed with a binary digit, where "1" has the same meaning as "Yes" and "0" means "No".
@@ -15,6 +14,16 @@ The dataset was extracted from Kaggle in the csv format and has more than 110k a
 ## Packages
 
 The project was developed in a Jupyter Notebook using the following python libraries: `Pandas`, `Matplotlib` and `Seaborn` and the magic function `%matplotlib inline`. 
+
+## Structure
+
+The project is divided in 3 parts:
+
+* The first one, presents an initial analysis of the dataset, through the wrangling and exploring processes. After analyzing the dataset, data was cleaned to preserve only relevant features to be used in the project.
+
+* The second part shows a visual analysis by plotting results and getting insights about the questions we want to answer.
+
+* On the last part of the project, some conclusions and an analysis about its limitations are made.
 
 ## Conclusions
 
